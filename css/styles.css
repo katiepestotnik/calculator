@@ -1,0 +1,26 @@
+.calc{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 40px auto;
+}
+.display{
+    border: 2px solid grey;
+    text-align: right;
+    padding: 5px;
+
+}
+.button-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+}
+.calc-buttons{
+    font-size: 30px;
+    padding: 10px;
+}
