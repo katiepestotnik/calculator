@@ -1,15 +1,25 @@
+body{
+    background-color: #8288cb;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+
 .calc{
     display: flex;
     justify-content: center;
     height: 500px;
     width: 500px;
-    border: 2px solid black;
+    border: 5px solid #21254f;
     margin: 40px auto;
+    background-color: #ddbfe7;
 }
 .display{
-    border: 2px solid grey;
+    border: 5px solid #21254f;
     text-align: right;
     padding: 5px;
+    background-color: white;
 
 }
 .button-container{
@@ -19,8 +29,11 @@
     height: 300px;
     width: 400px;
     padding: 5px;
+    border: 5px solid #21254f;
 }
 .calc-buttons{
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px;
+    margin-left: 40px;
+    font-weight: bold;
 }
