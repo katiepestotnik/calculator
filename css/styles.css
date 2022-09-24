@@ -9,8 +9,8 @@ h1{
 .calc{
     display: flex;
     justify-content: center;
-    height: 500px;
-    width: 500px;
+    height: 80vh;
+    width: 70%;
     border: 5px solid #21254f;
     margin: 40px auto;
     background-color: #ddbfe7;
@@ -25,9 +25,9 @@ h1{
 .button-container{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    height: 300px;
-    width: 400px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: 500px;
+    width: 100%;
     padding: 5px;
     border: 5px solid #21254f;
 }
@@ -36,4 +36,19 @@ h1{
     padding: 10px;
     margin-left: 40px;
     font-weight: bold;
+}
+.clear{
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+.output {
+    height: 40px;
 }
